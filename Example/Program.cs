@@ -20,14 +20,14 @@ namespace Example
          
             int x = 10, y = 12, z = 3;
 
-            x += y - x++ * z;                        //x=x+y-x*z  x=x+1
-            Console.WriteLine($"x={x}");
+            //x += y - x++ * z;                        //x=x+y-x*z  x=x+1
+            //Console.WriteLine($"x={x}");
 
-            z = 3;
-            x = 10;
-            y = 12;
-            z = --x - y * 5;                         // z=x-1-y*5 
-            Console.WriteLine($"z={z}");
+            //z = 3;
+            //x = 10;
+            //y = 12;
+            //z = --x - y * 5;                         // z=x-1-y*5 
+            //Console.WriteLine($"z={z}");
 
             z = 3;
             x = 10;
